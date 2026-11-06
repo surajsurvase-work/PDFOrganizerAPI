@@ -1,0 +1,251 @@
+[
+  {
+    "intentCode": "GREETING",
+    "category": "General",
+    "patterns": [ "hi", "hello", "hey", "good morning", "good evening", "hii", "hellow" ],
+    "responseType": "text",
+    "response": "Hello! Im your PDF Assistant. I can help you find the right PDF tool and guide you step by step.",
+    "suggestions": [ "Tell me about this application", "What are the tools?", "Compress PDF" ]
+  },
+  {
+    "intentCode": "ABOUT_APP",
+    "category": "General",
+    "patterns": [
+      "tell me about this application",
+      "about this app",
+      "what is this application",
+      "what does this app do",
+      "tell me about this app"
+    ],
+    "responseType": "text",
+    "response": "This application helps you work with PDFs and images. You can merge, split, extract pages, rotate, delete pages, add page numbers, organize, watermark, lock, convert, compress, OCR, and extract text.",
+    "suggestions": [ "What are the tools?", "Merge PDF", "Compress PDF" ]
+  },
+  {
+    "intentCode": "LIST_TOOLS",
+    "category": "General",
+    "patterns": [
+      "what are the tools",
+      "show tools",
+      "list all tools",
+      "what tools do you have",
+      "show all tools"
+    ],
+    "responseType": "tool_list",
+    "response": "These are the tools available in the application.",
+    "suggestions": [ "Merge PDF", "Split PDF", "Compress PDF" ]
+  },
+  {
+    "intentCode": "MERGE_PDF",
+    "category": "Tool",
+    "patterns": [
+      "merge pdf",
+      "combine pdf",
+      "join pdf",
+      "merge files",
+      "combine multiple pdf"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use Merge PDF to combine multiple PDF files into one document.",
+    "toolCode": "MERGE_PDF",
+    "suggestions": [ "Open Merge PDF", "How do I merge PDF?", "What file types are supported?" ]
+  },
+  {
+    "intentCode": "SPLIT_PDF",
+    "category": "Tool",
+    "patterns": [
+      "split pdf",
+      "split pages",
+      "divide pdf",
+      "separate pdf pages"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use Split PDF to split pages in your PDF.",
+    "toolCode": "SPLIT_PDF",
+    "suggestions": [ "Open Split PDF", "How do I split PDF?", "Can I split specific pages?" ]
+  },
+  {
+    "intentCode": "EXTRACT_PAGES_PDF",
+    "category": "Tool",
+    "patterns": [
+      "extract pages",
+      "extract specific pages",
+      "take pages from pdf",
+      "get selected pages"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use Extract Pages PDF to extract specific pages from your document.",
+    "toolCode": "EXTRACT_PAGES_PDF",
+    "suggestions": [ "Open Extract Pages PDF", "How do I extract pages?", "Can I choose page range?" ]
+  },
+  {
+    "intentCode": "ROTATE_PDF",
+    "category": "Tool",
+    "patterns": [
+      "rotate pdf",
+      "rotate pages",
+      "change orientation of pdf pages"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use Rotate PDF to rotate pages in your PDF.",
+    "toolCode": "ROTATE_PDF",
+    "suggestions": [ "Open Rotate PDF", "How do I rotate pages?", "Can I rotate selected pages only?" ]
+  },
+  {
+    "intentCode": "DELETE_PAGES_PDF",
+    "category": "Tool",
+    "patterns": [
+      "delete pages pdf",
+      "delete pages",
+      "remove pages",
+      "remove page from pdf"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use Delete Pages PDF to remove specific pages from your PDF.",
+    "toolCode": "DELETE_PAGES_PDF",
+    "suggestions": [ "Open Delete Pages PDF", "How do I delete pages?", "Can I delete multiple pages?" ]
+  },
+  {
+    "intentCode": "NUMBER_PAGES",
+    "category": "Tool",
+    "patterns": [
+      "number pages",
+      "add page numbers",
+      "insert page numbers",
+      "page numbering"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use Number Pages to insert page numbers in your PDF.",
+    "toolCode": "NUMBER_PAGES",
+    "suggestions": [ "Open Number Pages", "How do I add page numbers?", "Can I choose number position?" ]
+  },
+  {
+    "intentCode": "ORGANIZE_PDF",
+    "category": "Tool",
+    "patterns": [
+      "organize pdf",
+      "rearrange pdf pages",
+      "manage pdf pages",
+      "sort pdf pages"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use Organize PDF to rearrange, rotate, delete, merge, and export pages in one place.",
+    "toolCode": "ORGANIZE_PDF",
+    "suggestions": [ "Open Organize PDF", "What can I do in Organize PDF?", "Can I rearrange pages?" ]
+  },
+  {
+    "intentCode": "WATERMARK_PDF",
+    "category": "Tool",
+    "patterns": [
+      "watermark pdf",
+      "add watermark",
+      "insert watermark text",
+      "confidential watermark"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use Watermark PDF to add watermark text to your PDF.",
+    "toolCode": "WATERMARK_PDF",
+    "suggestions": [ "Open Watermark PDF", "How do I add watermark?", "Can I customize watermark text?" ]
+  },
+  {
+    "intentCode": "LOCK_PDF",
+    "category": "Tool",
+    "patterns": [
+      "lock pdf",
+      "protect pdf",
+      "add password",
+      "password protect pdf",
+      "secure my pdf"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use Lock PDF to add a password and protect your PDF.",
+    "toolCode": "LOCK_PDF",
+    "suggestions": [ "Open Lock PDF", "How do I add password?", "Can I protect any PDF?" ]
+  },
+  {
+    "intentCode": "PDF_TO_JPG",
+    "category": "Tool",
+    "patterns": [
+      "pdf to jpg",
+      "convert pdf to jpg",
+      "pdf into image",
+      "pdf to image"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use PDF to JPG to convert PDF pages into JPG images.",
+    "toolCode": "PDF_TO_JPG",
+    "suggestions": [ "Open PDF to JPG", "How do I convert PDF to JPG?", "Will each page become an image?" ]
+  },
+  {
+    "intentCode": "JPG_TO_PDF",
+    "category": "Tool",
+    "patterns": [
+      "jpg to pdf",
+      "image to pdf",
+      "convert jpg to pdf",
+      "photo to pdf"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use JPG to PDF to convert JPG images into PDF format.",
+    "toolCode": "JPG_TO_PDF",
+    "suggestions": [ "Open JPG to PDF", "How do I convert JPG to PDF?", "Can I upload multiple images?" ]
+  },
+  {
+    "intentCode": "COMPRESS_PDF",
+    "category": "Tool",
+    "patterns": [
+      "compress pdf",
+      "reduce pdf size",
+      "make pdf smaller",
+      "pdf too large",
+      "reduce file size"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use Compress PDF to reduce file size by up to 80%, depending on the document content.",
+    "toolCode": "COMPRESS_PDF",
+    "suggestions": [ "Open Compress PDF", "Will quality reduce?", "How much can I compress?" ]
+  },
+  {
+    "intentCode": "JPG_PNG_COMPRESS",
+    "category": "Tool",
+    "patterns": [
+      "compress jpg",
+      "compress png",
+      "compress image",
+      "reduce image size",
+      "jpg png compress"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use JPG/PNG Compress to reduce JPG or PNG file size.",
+    "toolCode": "JPG_PNG_COMPRESS",
+    "suggestions": [ "Open JPG/PNG Compress", "How much can I compress?", "Will image quality reduce?" ]
+  },
+  {
+    "intentCode": "OCR",
+    "category": "Tool",
+    "patterns": [
+      "ocr",
+      "extract text from image",
+      "read image text",
+      "scan image text"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use OCR to extract text from images.",
+    "toolCode": "OCR",
+    "suggestions": [ "Open OCR", "How does OCR work?", "Can OCR read scanned images?" ]
+  },
+  {
+    "intentCode": "PDF_TEXT_EXTRACTION",
+    "category": "Tool",
+    "patterns": [
+      "pdf text extraction",
+      "extract text from pdf",
+      "copy text from pdf",
+      "get text from pdf"
+    ],
+    "responseType": "tool_card",
+    "response": "You can use PDF text Extraction to extract text from a PDF document.",
+    "toolCode": "PDF_TEXT_EXTRACTION",
+    "suggestions": [ "Open PDF text Extraction", "How do I extract text from PDF?", "Can I copy the extracted text?" ]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "toolCode": "MERGE_PDF",
+    "toolName": "Merge PDF",
+    "category": "PDF Operations",
+    "description": "Combine multiple PDF files into one document.",
+    "routeUrl": "/MergePDF",
+    "icon": "merge",
+    "keywords": [ "merge pdf", "combine pdf", "join pdf", "merge files" ],
+    "aliases": [ "combine files", "join files", "merge documents" ],
+    "steps": [
+      "Upload two or more PDF files",
+      "Arrange files in the required order",
+      "Click merge",
+      "Download the merged PDF"
+    ]
+  },
+  {
+    "toolCode": "SPLIT_PDF",
+    "toolName": "Split PDF",
+    "category": "PDF Operations",
+    "description": "Split pages in your PDF.",
+    "routeUrl": "/SplitPDF",
+    "icon": "split",
+    "keywords": [ "split pdf", "split pages", "divide pdf" ],
+    "aliases": [ "separate pages", "break pdf" ],
+    "steps": [
+      "Upload the PDF file",
+      "Choose how you want to split pages",
+      "Click split",
+      "Download the output file"
+    ]
+  },
+  {
+    "toolCode": "EXTRACT_PAGES_PDF",
+    "toolName": "Extract Pages PDF",
+    "category": "PDF Operations",
+    "description": "Extract specific pages from a PDF.",
+    "routeUrl": "/ExtractPDF",
+    "icon": "content-cut",
+    "keywords": [ "extract pages", "extract specific pages", "take pages from pdf" ],
+    "aliases": [ "pick pages", "save selected pages" ],
+    "steps": [
+      "Upload the PDF file",
+      "Select the pages you want to extract",
+      "Click extract",
+      "Download the new PDF"
+    ]
+  },
+  {
+    "toolCode": "ROTATE_PDF",
+    "toolName": "Rotate PDF",
+    "category": "PDF Operations",
+    "description": "Rotate pages in your PDF.",
+    "routeUrl": "/RotatePDF",
+    "icon": "rotate-right",
+    "keywords": [ "rotate pdf", "rotate pages" ],
+    "aliases": [ "change page orientation", "turn page" ],
+    "steps": [
+      "Upload the PDF file",
+      "Select pages to rotate",
+      "Choose rotation direction",
+      "Download the updated PDF"
+    ]
+  },
+  {
+    "toolCode": "DELETE_PAGES_PDF",
+    "toolName": "Delete Pages PDF",
+    "category": "PDF Operations",
+    "description": "Delete specific pages from a PDF.",
+    "routeUrl": "/DeletePage",
+    "icon": "delete",
+    "keywords": [ "delete pages", "remove pages", "remove pdf page" ],
+    "aliases": [ "drop pages", "delete selected pages" ],
+    "steps": [
+      "Upload the PDF file",
+      "Select pages to delete",
+      "Click delete pages",
+      "Download the updated PDF"
+    ]
+  },
+  {
+    "toolCode": "NUMBER_PAGES",
+    "toolName": "Number Pages",
+    "category": "PDF Operations",
+    "description": "Insert page numbers in your PDF.",
+    "routeUrl": "/AddNumber",
+    "icon": "format-list-numbered",
+    "keywords": [ "number pages", "add page numbers", "page numbering" ],
+    "aliases": [ "insert numbering", "page number pdf" ],
+    "steps": [
+      "Upload the PDF file",
+      "Choose page number format and position",
+      "Apply numbering",
+      "Download the updated PDF"
+    ]
+  },
+  {
+    "toolCode": "ORGANIZE_PDF",
+    "toolName": "Organize PDF",
+    "category": "PDF Operations",
+    "description": "Rearrange, rotate, delete, merge and export pages in one place.",
+    "routeUrl": "/OrganizePDF",
+    "icon": "dashboard",
+    "keywords": [ "organize pdf", "rearrange pdf pages", "manage pdf pages" ],
+    "aliases": [ "sort pages", "reorder pdf" ],
+    "steps": [
+      "Upload the PDF file",
+      "Rearrange, rotate or delete pages as needed",
+      "Apply changes",
+      "Export the updated PDF"
+    ]
+  },
+  {
+    "toolCode": "WATERMARK_PDF",
+    "toolName": "Watermark PDF",
+    "category": "PDF Operations",
+    "description": "Add watermark text to your PDF.",
+    "routeUrl": "/WatermarkPDF",
+    "icon": "opacity",
+    "keywords": [ "watermark pdf", "add watermark", "watermark text" ],
+    "aliases": [ "confidential text", "stamp pdf" ],
+    "steps": [
+      "Upload the PDF file",
+      "Enter watermark text",
+      "Choose style and position",
+      "Download the watermarked PDF"
+    ]
+  },
+  {
+    "toolCode": "LOCK_PDF",
+    "toolName": "Lock PDF",
+    "category": "Security",
+    "description": "Add password to your PDF.",
+    "routeUrl": "/LockPDF",
+    "icon": "lock",
+    "keywords": [ "lock pdf", "protect pdf", "add password", "secure pdf" ],
+    "aliases": [ "password pdf", "restrict pdf" ],
+    "steps": [
+      "Upload the PDF file",
+      "Enter password",
+      "Apply protection",
+      "Download the secured PDF"
+    ]
+  },
+  {
+    "toolCode": "PDF_TO_JPG",
+    "toolName": "PDF to JPG",
+    "category": "Conversion",
+    "description": "Convert PDF file to JPG.",
+    "routeUrl": "/PDFtoJPG",
+    "icon": "image",
+    "keywords": [ "pdf to jpg", "convert pdf to jpg", "pdf to image" ],
+    "aliases": [ "pdf into image", "export pdf as image" ],
+    "steps": [
+      "Upload the PDF file",
+      "Choose conversion options",
+      "Click convert",
+      "Download JPG output"
+    ]
+  },
+  {
+    "toolCode": "JPG_TO_PDF",
+    "toolName": "JPG to PDF",
+    "category": "Conversion",
+    "description": "Convert JPG to PDF format.",
+    "routeUrl": "/JPGtoPDF",
+    "icon": "picture-as-pdf",
+    "keywords": [ "jpg to pdf", "image to pdf", "convert jpg to pdf" ],
+    "aliases": [ "photo to pdf", "png to pdf" ],
+    "steps": [
+      "Upload JPG image files",
+      "Arrange images if needed",
+      "Click convert",
+      "Download the PDF"
+    ]
+  },
+  {
+    "toolCode": "COMPRESS_PDF",
+    "toolName": "Compress PDF",
+    "category": "Optimization",
+    "description": "Reduce PDF size up to 80%.",
+    "routeUrl": "/CompressPDF",
+    "icon": "compress",
+    "keywords": [ "compress pdf", "reduce pdf size", "make pdf smaller" ],
+    "aliases": [ "shrink pdf", "pdf too large", "reduce file size" ],
+    "steps": [
+      "Upload the PDF file",
+      "Select compression level",
+      "Click compress",
+      "Download the compressed PDF"
+    ]
+  },
+  {
+    "toolCode": "JPG_PNG_COMPRESS",
+    "toolName": "JPG/PNG Compress",
+    "category": "Optimization",
+    "description": "Reduce JPG/PNG size up to 80%.",
+    "routeUrl": "/ImageCompress",
+    "icon": "photo-size-select-small",
+    "keywords": [ "compress image", "jpg compress", "png compress" ],
+    "aliases": [ "reduce image size", "shrink image" ],
+    "steps": [
+      "Upload JPG or PNG files",
+      "Choose compression level",
+      "Click compress",
+      "Download compressed images"
+    ]
+  },
+  {
+    "toolCode": "OCR",
+    "toolName": "OCR",
+    "category": "AI Tools",
+    "description": "Extract text from image.",
+    "routeUrl": "/OCRtoText",
+    "icon": "text-snippet",
+    "keywords": [ "ocr", "extract text from image", "scan image text" ],
+    "aliases": [ "read image text", "image text extraction" ],
+    "steps": [
+      "Upload the image file",
+      "Start OCR process",
+      "Review extracted text",
+      "Copy or download the result"
+    ]
+  },
+  {
+    "toolCode": "PDF_TEXT_EXTRACTION",
+    "toolName": "PDF text Extraction",
+    "category": "AI Tools",
+    "description": "Extract text from PDF.",
+    "routeUrl": "/PDFtoWord",
+    "icon": "description",
+    "keywords": [ "pdf text extraction", "extract text from pdf", "get text from pdf" ],
+    "aliases": [ "copy text from pdf", "read pdf text" ],
+    "steps": [
+      "Upload the PDF file",
+      "Start extraction",
+      "Review extracted text",
+      "Copy or download the result"
+    ]
+  }
+]

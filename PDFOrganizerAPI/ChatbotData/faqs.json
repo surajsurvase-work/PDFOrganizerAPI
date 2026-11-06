@@ -1,0 +1,32 @@
+[
+  {
+    "faqCode": "FAQ_SECURITY",
+    "question": "Is my file secure?",
+    "keywords": [ "is my file secure", "is this safe", "is uploaded file safe", "security", "privacy" ],
+    "answer": "Your files should be processed securely within the application. You can update this answer based on your actual storage, encryption, and deletion policy."
+  },
+  {
+    "faqCode": "FAQ_SUPPORTED_FILES",
+    "question": "What file types are supported?",
+    "keywords": [ "supported file types", "supported files", "what files can i upload", "allowed file types" ],
+    "answer": "This depends on the selected tool. PDF tools support PDF files, image tools support JPG or PNG files, and some tools support both."
+  },
+  {
+    "faqCode": "FAQ_COMPRESS_QUALITY",
+    "question": "Will quality reduce after compression?",
+    "keywords": [ "will quality reduce", "quality reduce", "compression quality", "compress pdf quality" ],
+    "answer": "Compression may reduce quality depending on the file content and compression level. In most cases, the goal is to balance file size and readability."
+  },
+  {
+    "faqCode": "FAQ_OCR_INFO",
+    "question": "What is OCR?",
+    "keywords": [ "what is ocr", "ocr meaning", "ocr info" ],
+    "answer": "OCR stands for Optical Character Recognition. It helps extract text from scanned images or image-based documents."
+  },
+  {
+    "faqCode": "FAQ_CAN_I_UPLOAD_MULTIPLE",
+    "question": "Can I upload multiple files?",
+    "keywords": [ "can i upload multiple files", "multiple files", "upload many files" ],
+    "answer": "Some tools like Merge PDF and JPG to PDF support multiple file uploads. Other tools may accept a single file at a time."
+  }
+]

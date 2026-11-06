@@ -1,0 +1,9 @@
+{
+  "welcome": [
+    "Hi, Im your PDF Assistant. I can help you choose the right tool and answer questions about the application."
+  ],
+  "fallback": [
+    "I can help with tools like Merge PDF, Split PDF, Extract Pages, Rotate PDF, Compress PDF, OCR, and more. Please tell me what you want to do.",
+    "I didn�t fully understand that. Please tell me your task, such as merge, split, compress, convert, protect, or extract text."
+  ]
+}

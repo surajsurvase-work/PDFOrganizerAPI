@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Merge PDF",
+    "type": "tool",
+    "toolCode": "MERGE_PDF"
+  },
+  {
+    "title": "Split PDF",
+    "type": "tool",
+    "toolCode": "SPLIT_PDF"
+  },
+  {
+    "title": "Extract Pages PDF",
+    "type": "tool",
+    "toolCode": "EXTRACT_PAGES_PDF"
+  },
+  {
+    "title": "Compress PDF",
+    "type": "tool",
+    "toolCode": "COMPRESS_PDF"
+  },
+  {
+    "title": "OCR",
+    "type": "tool",
+    "toolCode": "OCR"
+  },
+  {
+    "title": "PDF text Extraction",
+    "type": "tool",
+    "toolCode": "PDF_TEXT_EXTRACTION"
+  },
+  {
+    "title": "Tell me about this application",
+    "type": "intent",
+    "intentCode": "ABOUT_APP"
+  },
+  {
+    "title": "What are the tools?",
+    "type": "intent",
+    "intentCode": "LIST_TOOLS"
+  }
+]
