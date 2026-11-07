@@ -53,11 +53,18 @@ builder.Services.AddDbContext<ESGContext>(options =>
 
 
 builder.Services.AddCors(opts =>
-opts.AddPolicy("MyCors", options => options
-                                        .WithOrigins("https://pdforguatwet.lntecc.com", "https://localhost:4200","https://pdforgdevwet.lntecc.com","https://pdforg.wet.lntecc.com")
-                                         .WithMethods("GET", "POST")
-                                        .AllowAnyHeader()
-                                        .SetIsOriginAllowed(origin => true)));
+    opts.AddPolicy("MyCors", options => options
+        .WithOrigins(
+            "https://pdforguatwet.lntecc.com",
+            "https://localhost:4200",
+            "https://pdforgdevwet.lntecc.com",
+            "https://pdforg.wet.lntecc.com",
+            "https://pdforgui.surajsurvase-work.workers.dev"
+        )
+        .AllowAnyMethod()
+        .AllowAnyHeader()
+    )
+);
 
 
 // Register  class
@@ -74,14 +81,14 @@ builder.Services.AddScoped<ChatbotService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+// Swagger enabled for Render and local environments
+app.UseSwagger();
+
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-
-
-}
-
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "PDF Organizer API V1");
+    c.RoutePrefix = "swagger";
+});
 
 
 app.UseCors("MyCors");
