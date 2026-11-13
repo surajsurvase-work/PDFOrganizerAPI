@@ -74,7 +74,8 @@ namespace PDFOrganizerAPI.Filters
                         return;
                     }
 
-                    if (jwtSecurityToken.ValidTo < DateTime.UtcNow)
+                    // if (jwtSecurityToken.ValidTo < DateTime.UtcNow)
+                    if (jwtSecurityToken.ValidTo)
                     {
                         context.Result = new UnauthorizedObjectResult(
                             new { Message = "Token Expired" });
