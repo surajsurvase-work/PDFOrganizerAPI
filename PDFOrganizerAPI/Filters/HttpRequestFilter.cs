@@ -75,12 +75,11 @@ namespace PDFOrganizerAPI.Filters
                     }
 
                     // if (jwtSecurityToken.ValidTo < DateTime.UtcNow)
-                    if (jwtSecurityToken.ValidTo)
-                    {
-                        context.Result = new UnauthorizedObjectResult(
-                            new { Message = "Token Expired" });
-                        return;
-                    }
+                    // {
+                    //     context.Result = new UnauthorizedObjectResult(
+                    //         new { Message = "Token Expired" });
+                    //     return;
+                    // }
 
                     await next();
                 }
